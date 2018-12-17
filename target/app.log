@@ -1,0 +1,61 @@
+2018-12-14 08:18:24.702  INFO 2526 --- [restartedMain] com.zuimeihui.tutorial.Application       : Starting Application on LiYangMacBook.local with PID 2526 (/Users/LiYang/Documents/Java/workspace/tutorial/target/classes started by LiYang in /Users/LiYang/Documents/Java/workspace/tutorial)
+2018-12-14 08:18:24.723 DEBUG 2526 --- [restartedMain] com.zuimeihui.tutorial.Application       : Running with Spring Boot v2.1.1.RELEASE, Spring v5.1.3.RELEASE
+2018-12-14 08:18:24.727  INFO 2526 --- [restartedMain] com.zuimeihui.tutorial.Application       : No active profile set, falling back to default profiles: default
+2018-12-14 08:18:24.882  INFO 2526 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2018-12-14 08:18:24.886  INFO 2526 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2018-12-14 08:18:27.031  INFO 2526 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-14 08:18:27.036  INFO 2526 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-14 08:18:27.089  INFO 2526 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2018-12-14 08:18:28.152  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7186b53b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.201  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$8ab43043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.222  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f2066809] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.279  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.288  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@122889a0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.305  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$af88d2f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:28.311  INFO 2526 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-14 08:18:29.454  INFO 2526 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2018-12-14 08:18:29.513  INFO 2526 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-12-14 08:18:29.514  INFO 2526 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2018-12-14 08:18:29.538  INFO 2526 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/LiYang/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-12-14 08:18:29.734  INFO 2526 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-12-14 08:18:29.734  INFO 2526 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4847 ms
+2018-12-14 08:18:30.008 DEBUG 2526 --- [restartedMain] c.z.t.service.AuthenticationTokenFilter  : Filter 'authenticationTokenFilter' configured for use
+2018-12-14 08:18:32.005  INFO 2526 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 18f0bd5d-a0d4-41d1-8795-d477a0ef041d
+
+2018-12-14 08:18:32.174 TRACE 2526 --- [restartedMain] c.zuimeihui.tutorial.WebSecurityConfig   : configure httpSecurity ...............
+2018-12-14 08:18:32.333  INFO 2526 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6fd898d, org.springframework.security.web.context.SecurityContextPersistenceFilter@7be7e333, org.springframework.security.web.header.HeaderWriterFilter@2cfb42ce, org.springframework.security.web.authentication.logout.LogoutFilter@75632122, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6dce3290, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@451f8bd9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e13238e, org.springframework.security.web.session.SessionManagementFilter@71c877ba, org.springframework.security.web.access.ExceptionTranslationFilter@50cda9f5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@44262f2c]
+2018-12-14 08:18:32.988  INFO 2526 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-14 08:18:34.733  INFO 2526 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2018-12-14 08:18:34.881  INFO 2526 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2018-12-14 08:18:34.891  INFO 2526 --- [restartedMain] com.zuimeihui.tutorial.Application       : Started Application in 11.369 seconds (JVM running for 12.64)
+2018-12-14 08:19:31.004  INFO 2526 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-14 08:19:31.005  INFO 2526 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2018-12-14 08:19:31.036  INFO 2526 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 31 ms
+2018-12-14 08:19:31.077 TRACE 2526 --- [http-nio-8080-exec-2] c.z.t.service.AuthenticationTokenFilter  : token is null
+2018-12-14 08:19:31.077 TRACE 2526 --- [http-nio-8080-exec-1] c.z.t.service.AuthenticationTokenFilter  : token is null
+2018-12-14 08:19:44.401 TRACE 2526 --- [http-nio-8080-exec-3] c.z.t.service.AuthenticationTokenFilter  : token is null
+2018-12-14 08:19:44.912 TRACE 2526 --- [http-nio-8080-exec-4] c.z.t.service.AuthenticationTokenFilter  : token is null
+2018-12-14 08:19:44.921 TRACE 2526 --- [http-nio-8080-exec-4] c.z.t.controller.TvSeriesController      : getAll(); 被调用了
+2018-12-14 08:19:44.948  INFO 2526 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-14 08:19:45.336  INFO 2526 --- [http-nio-8080-exec-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-14 08:19:45.356 DEBUG 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : ==>  Preparing: select * from tv_series 
+2018-12-14 08:19:45.394 TRACE 2526 --- [http-nio-8080-exec-5] c.z.t.service.AuthenticationTokenFilter  : token is null
+2018-12-14 08:19:45.396 TRACE 2526 --- [http-nio-8080-exec-5] c.z.t.controller.TvSeriesController      : getAll(); 被调用了
+2018-12-14 08:19:45.413 DEBUG 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : ==>  Preparing: select * from tv_series 
+2018-12-14 08:19:45.502 DEBUG 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : ==> Parameters: 
+2018-12-14 08:19:45.503 DEBUG 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : ==> Parameters: 
+2018-12-14 08:19:45.588 TRACE 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : <==    Columns: id, name, season_count, origin_release
+2018-12-14 08:19:45.588 TRACE 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : <==    Columns: id, name, season_count, origin_release
+2018-12-14 08:19:45.589 TRACE 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : <==        Row: 1, 我就是看看, 5, 2018-12-13
+2018-12-14 08:19:45.590 TRACE 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : <==        Row: 1, 我就是看看, 5, 2018-12-13
+2018-12-14 08:19:45.605 TRACE 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : <==        Row: 2, 成功了, null, null
+2018-12-14 08:19:45.606 TRACE 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : <==        Row: 2, 成功了, null, null
+2018-12-14 08:19:45.607 DEBUG 2526 --- [http-nio-8080-exec-4] c.z.tutorial.dao.TvSeriesDao.getAll      : <==      Total: 2
+2018-12-14 08:19:45.608 DEBUG 2526 --- [http-nio-8080-exec-5] c.z.tutorial.dao.TvSeriesDao.getAll      : <==      Total: 2
+2018-12-14 08:19:45.612 TRACE 2526 --- [http-nio-8080-exec-4] c.z.t.controller.TvSeriesController      : 查询获得2条记录。
+2018-12-14 08:19:45.612 TRACE 2526 --- [http-nio-8080-exec-5] c.z.t.controller.TvSeriesController      : 查询获得2条记录。
+2018-12-14 08:38:11.219  INFO 2526 --- [Thread-8] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-14 08:38:11.222  INFO 2526 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-14 08:38:11.238  INFO 2526 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

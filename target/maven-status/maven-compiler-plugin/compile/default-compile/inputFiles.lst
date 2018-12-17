@@ -1,0 +1,12 @@
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/Application.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/controller/SampleController.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/pojo/TvCharacterDto.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/WebSecurityConfig.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/controller/TvSeriesController.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/service/TvSeriesService.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/service/SampleService.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/dao/TvSeriesDao.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/controller/TokenController.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/service/AuthenticationTokenFilter.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/service/TokenService.java
+/Users/LiYang/Documents/Java/workspace/tutorial/src/main/java/com/zuimeihui/tutorial/pojo/TvSeries.java
